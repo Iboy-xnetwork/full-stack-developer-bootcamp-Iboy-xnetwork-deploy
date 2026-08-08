@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Prisma generated files
+backend/generated/prisma/
+
+# Build output
+frontend/dist/
+backend/dist/
+
+# Logs
+*.log
